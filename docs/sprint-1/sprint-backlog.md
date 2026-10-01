@@ -136,7 +136,7 @@ E à história:
 
 ## Resumo do Sprint Backlog
 
-| Item | Story Points planejados |
+| Item | Story Points no escopo final |
 |---|---:|
 | E01 — Autenticação e Usuários | 14 |
 | E02 — Cadastro de Idosos e Responsáveis | 8 |

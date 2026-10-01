@@ -16,3 +16,4 @@ Este diretório reúne a documentação da Sprint 1 do projeto **Acolher+**.
 - [Sprint Review](sprint-review.md)
 - [Retrospectiva](retrospective.md)
 - [Métricas](metrics.md)
+- [Gestão de Mudança](change-management.md)

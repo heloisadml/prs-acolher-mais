@@ -145,7 +145,9 @@ E à história:
 | BUG01 | 3 |
 | **Total** | **41** |
 
-Foram planejados **41 Story Points** para a Sprint 1.
+Foram planejados inicialmente **38 Story Points** para a Sprint 1.
+
+Durante a execução, o BUG01 foi adicionado ao Sprint Backlog com estimativa de **3 Story Points**, elevando o escopo final para **41 Story Points**.
 
 ---
 

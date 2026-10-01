@@ -35,3 +35,17 @@ A Definition of Done desta Sprint consolida esses critérios em uma regra única
 Uma história só poderá ser contabilizada na **velocity** quando atender integralmente à Definition of Done.
 
 Histórias parcialmente implementadas ou com algum item obrigatório pendente não devem ter seus Story Points contabilizados como concluídos.
+
+## Critérios para Bugs
+
+Um bug será considerado **Done** somente quando:
+
+- [ ] Problema reproduzido pela equipe;
+- [ ] Causa identificada;
+- [ ] Correção implementada;
+- [ ] Testes realizados;
+- [ ] Teste de regressão executado;
+- [ ] Correção validada;
+- [ ] Documentação atualizada, quando aplicável.
+
+O mesmo princípio será aplicado ao BUG01: seus Story Points somente serão contabilizados caso todos os critérios de correção estabelecidos tenham sido atendidos.

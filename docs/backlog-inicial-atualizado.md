@@ -70,8 +70,8 @@ O backlog atual é composto por **25 histórias de usuário distribuídas em 6 �
 
 | Prioridade | Quantidade |
 |---|---:|
-| Must Have | 15 |
-| Should Have | 8 |
+| Must Have | 16 |
+| Should Have | 7 |
 | Could Have | 2 |
 | Won't Have nesta versão | 0 |
 | **Total** | **25** |

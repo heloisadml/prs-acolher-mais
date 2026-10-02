@@ -89,6 +89,10 @@ Como os Story Points somente são considerados concluídos quando a história at
 
 O BUG01 foi identificado em 29/09 e acrescentou 3 Story Points ao trabalho restante.
 
+### Gráfico de Burndown
+
+![Burndown da Sprint 1](images/burndown-sprint-1.svg)
+
 ### Trabalho restante
 
 | Dia | Data | Story Points restantes | Evento |

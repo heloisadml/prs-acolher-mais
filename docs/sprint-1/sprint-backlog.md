@@ -2,7 +2,7 @@
 
 ## Observação sobre a organização atual
 
-No GitHub, as histórias de usuário estão atualmente registradas como checklists dentro dos épicos. Para a documentação da Sprint, elas são apresentadas individualmente abaixo.
+No GitHub, os épicos, histórias de usuário, tarefas e bugs estão registrados como issues individuais e relacionados entre si. Os épicos também mantêm checklists de referência para suas histórias.
 
 Os Story Points foram estimados utilizando uma escala relativa baseada na sequência de Fibonacci, considerando complexidade, esforço e incerteza.
 
@@ -10,8 +10,8 @@ Os Story Points foram estimados utilizando uma escala relativa baseada na sequê
 
 | Épico | Status |
 |---|---|
-| E01 — Autenticação e Usuários | Doing |
-| E02 — Cadastro de Idosos e Responsáveis | To Do |
+| E01 — Autenticação e Usuários | Done |
+| E02 — Cadastro de Idosos e Responsáveis | Doing |
 | E03 — Gestão de Medicamentos | To Do |
 | E04 — Registro de Rotina | Doing |
 | E05 — Consulta para Familiares | Product Backlog |
@@ -50,10 +50,10 @@ Foram selecionadas para a Sprint as histórias relacionadas ao cadastro e à con
 
 | ID | História de usuário | Story Points | Situação |
 |---|---|---:|---|
-| E02-US01 | Como Administrador, quero cadastrar um novo idoso com nome, data de nascimento e informações de saúde, para manter um registro organizado dos residentes. | 5 | Em andamento |
+| E02-US01 | Como Administrador, quero cadastrar um novo idoso com nome, data de nascimento, informações de saúde e pelo menos um contato de emergência, para manter um registro organizado e garantir uma referência de contato associada ao residente. | 5 | Em andamento |
 | E02-US02 | Como Administrador, quero editar os dados de um idoso já cadastrado, para manter as informações sempre atualizadas. | 3 | Não selecionada |
 | E02-US03 | Como Administrador, quero listar todos os idosos cadastrados, para visualizar rapidamente os residentes do lar. | 3 | Pendente |
-| E02-US04 | Como Administrador, quero cadastrar os contatos de emergência de cada idoso, para acionar os responsáveis quando necessário. | 3 | Não selecionada |
+| E02-US04 | Como Administrador, quero gerenciar os contatos de emergência de um idoso após o cadastro inicial, para manter atualizadas as referências que podem ser acionadas quando necessário. | 3 | Não selecionada |
 | E02-US05 | Como Administrador, quero registrar o valor e a data de vencimento da mensalidade de cada residente, para controlar os pagamentos do lar. | 5 | Não selecionada |
 
 **Total planejado do E02 na Sprint: 8 Story Points**
@@ -130,7 +130,7 @@ O BUG01 está relacionado ao épico:
 
 E à história:
 
-- E02-US01 — Como Administrador, quero cadastrar um novo idoso com nome, data de nascimento e informações de saúde, para manter um registro organizado dos residentes.
+- E02-US01 — Como Administrador, quero cadastrar um novo idoso com nome, data de nascimento, informações de saúde e pelo menos um contato de emergência, para manter um registro organizado e garantir uma referência de contato associada ao residente.
 
 ---
 
@@ -181,7 +181,7 @@ Os seguintes épicos permaneceram no Product Backlog e não foram priorizados pa
 Também permaneceram fora desta Sprint as seguintes histórias dos épicos parcialmente selecionados:
 
 - E02-US02 — Editar os dados de um idoso;
-- E02-US04 — Cadastrar contatos de emergência;
+- E02-US04 — Gerenciar contatos de emergência após o cadastro inicial;
 - E02-US05 — Registrar mensalidade;
 - E03-US03 — Marcar dose como ministrada;
 - E03-US04 — Visualizar histórico de doses;

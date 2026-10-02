@@ -49,3 +49,22 @@ Um bug será considerado **Done** somente quando:
 - [ ] Documentação atualizada, quando aplicável.
 
 O mesmo princípio será aplicado ao BUG01: seus Story Points somente serão contabilizados caso todos os critérios de correção estabelecidos tenham sido atendidos.
+
+## Evidências de aplicação da DoD
+
+Na Sprint 1, apenas as histórias do épico E01 foram contabilizadas como concluídas. As respectivas issues possuem os critérios de aceitação e a Definition of Done marcados como atendidos:
+
+| História | Issue | Situação |
+|---|---|---|
+| E01-US01 — Cadastro de Administrador | [#8](https://github.com/heloisadml/prs-acolher-mais/issues/8) | Done |
+| E01-US02 — Login de Administrador | [#9](https://github.com/heloisadml/prs-acolher-mais/issues/9) | Done |
+| E01-US03 — Login de Cuidador | [#10](https://github.com/heloisadml/prs-acolher-mais/issues/10) | Done |
+| E01-US04 — Criação de contas de Cuidadores e Familiares | [#11](https://github.com/heloisadml/prs-acolher-mais/issues/11) | Done |
+
+As tarefas técnicas associadas também tiveram seus critérios de conclusão marcados:
+
+- [T01 — #18](https://github.com/heloisadml/prs-acolher-mais/issues/18);
+- [T02 — #19](https://github.com/heloisadml/prs-acolher-mais/issues/19);
+- [T03 — #20](https://github.com/heloisadml/prs-acolher-mais/issues/20).
+
+Os demais itens permaneceram pendentes ou em andamento e, por isso, não tiveram Story Points contabilizados na velocity.

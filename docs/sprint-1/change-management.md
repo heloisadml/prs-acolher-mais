@@ -13,21 +13,18 @@
 
 ## Requisito original
 
-O requisito original estava relacionado ao épico **E02 — Cadastro de Idosos e Responsáveis**, especificamente à história **E02-US01 — Cadastro de novo idoso**.
+O requisito original estava relacionado ao épico **E02 — Cadastro de Idosos e Responsáveis** e era dividido em duas histórias distintas:
 
-A história previa que o Administrador pudesse cadastrar um novo idoso informando:
+- **E02-US01 — Cadastro de novo idoso:** previa o cadastro do residente com nome, data de nascimento e informações de saúde;
+- **E02-US04 — Cadastro de contatos de emergência:** previa o registro de contatos de emergência como funcionalidade separada.
 
-- nome;
-- data de nascimento;
-- informações de saúde.
-
-A história relacionada **E02-US04 — Cadastrar contatos de emergência** estava inicialmente prevista como uma funcionalidade separada e não havia sido selecionada para a Sprint 1.
+Na versão original do backlog, a necessidade de manter ao menos um contato de emergência por idoso já existia, mas não fazia parte do fluxo inicial da E02-US01.
 
 ## Mudança solicitada
 
-Foi solicitada a alteração do fluxo de cadastro de residentes para que o cadastro de pelo menos **um contato de emergência passe a ser obrigatório no momento do cadastro do idoso**.
+Foi solicitada uma alteração de organização do requisito: o primeiro contato de emergência, antes tratado em uma história separada, passa a ser **obrigatório dentro do próprio fluxo de cadastro inicial do idoso**.
 
-Com a mudança, o cadastro de um novo residente deixa de ser considerado completo caso não exista pelo menos um contato de emergência associado.
+Com a mudança, a E02-US01 deixa de representar apenas os dados básicos do residente e passa a incluir também a associação inicial obrigatória de um contato de emergência. A E02-US04 permanece responsável pela gestão posterior dos contatos.
 
 ## Motivo da mudança
 
@@ -102,9 +99,9 @@ A E02-US01 passa a contemplar o cadastro inicial de pelo menos um contato de eme
 | Item | Situação anterior | Alteração |
 |---|---|---|
 | E02-US01 | Cadastro de nome, data de nascimento e informações de saúde | Passa a exigir pelo menos um contato de emergência |
-| E02-US04 | Cadastro de contatos de emergência como funcionalidade separada | Mantida para inclusão e manutenção posterior de contatos adicionais |
+| E02-US04 | Cadastro de contatos de emergência como funcionalidade separada | Reformulada para gestão posterior dos contatos após o cadastro inicial |
 | T04 | Estruturar cadastro básico do residente | Passa a incluir campos, validações e associação do contato de emergência |
-| Critérios de aceitação de E02-US01 | Não exigiam contato de emergência | Passam a exigir pelo menos um contato válido |
+| Critérios de aceitação de E02-US01 | Não incluíam o contato de emergência no fluxo inicial | Passam a exigir pelo menos um contato válido durante o cadastro |
 
 ## Rastreabilidade
 
@@ -112,7 +109,7 @@ A mudança mantém rastreabilidade com os seguintes itens:
 
 - **Épico:** E02 — Cadastro de Idosos e Responsáveis;
 - **História principal afetada:** E02-US01 — Cadastro de novo idoso;
-- **História relacionada:** E02-US04 — Cadastro de contatos de emergência;
+- **História relacionada:** E02-US04 — Gestão de contatos de emergência (#36);
 - **Tarefa técnica afetada:** T04 — Estruturar cadastro de residentes;
 - **Sprint:** Sprint 1.
 
@@ -124,6 +121,6 @@ A decisão de incorporar um contato de emergência obrigatório ao cadastro inic
 
 Do ponto de vista de modelagem, a alteração estabelece uma relação necessária entre o residente e ao menos um contato responsável desde a criação do registro. Isso reduz a necessidade de validações posteriores para identificar residentes sem referência de emergência.
 
-A manutenção da E02-US04 como história separada preserva a possibilidade de evoluir a funcionalidade para permitir múltiplos contatos, edição de dados e definição de diferentes tipos de responsáveis.
+A reformulação da E02-US04 como história de gestão posterior preserva a separação de responsabilidades: a E02-US01 garante o primeiro contato obrigatório no cadastro inicial, enquanto a E02-US04 trata inclusão de contatos adicionais e atualização das informações existentes.
 
 A mudança também demonstra a necessidade de revisar critérios de aceitação e tarefas técnicas quando um requisito é alterado, mantendo a rastreabilidade entre a necessidade original, a decisão tomada e os itens afetados no backlog.

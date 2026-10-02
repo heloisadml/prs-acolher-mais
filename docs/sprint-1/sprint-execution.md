@@ -92,3 +92,18 @@ Foram utilizadas como evidências de acompanhamento:
 A execução da Sprint foi acompanhada por meio do GitHub Projects:
 
 https://github.com/users/heloisadml/projects/1
+
+## Evidências objetivas no GitHub
+
+O acompanhamento da Sprint pode ser verificado diretamente no GitHub Project e nas issues relacionadas aos itens do Sprint Backlog.
+
+- **GitHub Project:** https://github.com/users/heloisadml/projects/1
+- **Épico E01 concluído:** https://github.com/heloisadml/prs-acolher-mais/issues/1
+- **E01-US01:** https://github.com/heloisadml/prs-acolher-mais/issues/8
+- **E01-US02:** https://github.com/heloisadml/prs-acolher-mais/issues/9
+- **E01-US03:** https://github.com/heloisadml/prs-acolher-mais/issues/10
+- **E01-US04:** https://github.com/heloisadml/prs-acolher-mais/issues/11
+- **E02-US01 em andamento:** https://github.com/heloisadml/prs-acolher-mais/issues/12
+- **BUG01:** https://github.com/heloisadml/prs-acolher-mais/issues/7
+
+As issues concluídas do E01 apresentam critérios de aceitação e Definition of Done marcados, enquanto os itens não concluídos permanecem com critérios pendentes. Essa diferenciação sustenta a contabilização de 14 Story Points concluídos e a velocity registrada na Sprint 1.

@@ -12,7 +12,7 @@ O processo representa o caminho de uma demanda desde o momento em que surge até
 
 Para facilitar a visualização em dispositivos móveis, o fluxograma também está disponível em formato de imagem:
 
-![Fluxograma do processo de desenvolvimento do Acolher+](images/processo-equipe-ampliada-fluxograma.svg)
+![Fluxograma do processo de desenvolvimento do Acolher+](images/processo-equipe-ampliada-fluxograma.jpg)
 
 ### Versão em Mermaid
 

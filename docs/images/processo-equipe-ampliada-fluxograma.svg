@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1900" viewBox="0 0 900 1900">
+<style>
+text{font-family:Arial,sans-serif;fill:#111;font-size:24px}
+.box{fill:#fff;stroke:#222;stroke-width:2;rx:12}
+.diamond{fill:#fff;stroke:#222;stroke-width:2}
+.line{stroke:#222;stroke-width:2;fill:none;marker-end:url(#arrow)}
+.small{font-size:20px}
+.title{font-size:30px;font-weight:bold}
+</style>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#222"/></marker></defs>
+<rect width="900" height="1900" fill="#fff"/>
+<text x="450" y="45" text-anchor="middle" class="title">Fluxo de desenvolvimento — Acolher+</text>
+
+<rect class="box" x="260" y="80" width="380" height="70"/><text x="450" y="123" text-anchor="middle">Surge uma necessidade do Acolher+</text>
+<path class="line" d="M450 150 L450 200"/>
+<polygon class="diamond" points="450,200 590,270 450,340 310,270"/><text x="450" y="278" text-anchor="middle">Tipo da necessidade</text>
+
+<path class="line" d="M360 305 L230 390"/><path class="line" d="M450 340 L450 390"/><path class="line" d="M540 305 L670 390"/>
+<rect class="box" x="110" y="390" width="240" height="60"/><text x="230" y="428" text-anchor="middle" class="small">Novo requisito</text>
+<rect class="box" x="350" y="390" width="200" height="60"/><text x="450" y="428" text-anchor="middle" class="small">Bug</text>
+<rect class="box" x="550" y="390" width="240" height="60"/><text x="670" y="428" text-anchor="middle" class="small">Melhoria</text>
+
+<path class="line" d="M230 450 L450 500"/><path class="line" d="M450 450 L450 500"/><path class="line" d="M670 450 L450 500"/>
+<rect class="box" x="300" y="500" width="300" height="60"/><text x="450" y="538" text-anchor="middle">Registrar item</text>
+
+<path class="line" d="M450 560 L450 620"/>
+<rect class="box" x="235" y="620" width="430" height="80"/><text x="450" y="652" text-anchor="middle">Classificar como: Épico,</text><text x="450" y="682" text-anchor="middle">História, Tarefa ou Bug</text>
+
+<path class="line" d="M450 700 L450 760"/>
+<rect class="box" x="300" y="760" width="300" height="60"/><text x="450" y="798" text-anchor="middle">Refinamento</text>
+
+<path class="line" d="M450 820 L450 880"/>
+<rect class="box" x="220" y="880" width="460" height="100"/><text x="450" y="915" text-anchor="middle">Definir descrição, critérios de aceitação,</text><text x="450" y="948" text-anchor="middle">prioridade e dependências</text>
+
+<path class="line" d="M450 980 L450 1040"/>
+<rect class="box" x="300" y="1040" width="300" height="60"/><text x="450" y="1078" text-anchor="middle">Product Backlog</text>
+
+<path class="line" d="M450 1100 L450 1160"/>
+<rect class="box" x="300" y="1160" width="300" height="60"/><text x="450" y="1198" text-anchor="middle">Sprint Planning</text>
+
+<path class="line" d="M450 1220 L450 1280"/>
+<rect class="box" x="220" y="1280" width="460" height="70"/><text x="450" y="1322" text-anchor="middle">Selecionar histórias para a Sprint</text>
+
+<path class="line" d="M450 1350 L450 1410"/>
+<rect class="box" x="220" y="1410" width="460" height="70"/><text x="450" y="1452" text-anchor="middle">Dividir histórias em tarefas técnicas</text>
+
+<path class="line" d="M450 1480 L450 1540"/>
+<rect class="box" x="300" y="1540" width="300" height="60"/><text x="450" y="1578" text-anchor="middle">Desenvolvimento</text>
+
+<path class="line" d="M450 1600 L450 1660"/>
+<rect class="box" x="220" y="1660" width="460" height="70"/><text x="450" y="1702" text-anchor="middle">Front-end / Back-end / Integração</text>
+
+<path class="line" d="M450 1730 L450 1785"/>
+<rect class="box" x="300" y="1785" width="300" height="60"/><text x="450" y="1823" text-anchor="middle">Code Review → Testes → Validação do PO → Done</text>
+</svg>

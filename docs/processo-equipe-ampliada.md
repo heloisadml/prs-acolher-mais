@@ -8,6 +8,14 @@ Este documento descreve uma proposta de organização do fluxo de trabalho do **
 
 O processo representa o caminho de uma demanda desde o momento em que surge até sua conclusão. Requisitos, melhorias e bugs são registrados, refinados, priorizados e, quando selecionados para uma Sprint, passam por desenvolvimento, revisão, testes e validação.
 
+### Visualização em imagem
+
+Para facilitar a visualização em dispositivos móveis, o fluxograma também está disponível em formato de imagem:
+
+![Fluxograma do processo de desenvolvimento do Acolher+](images/processo-equipe-ampliada-fluxograma.svg)
+
+### Versão em Mermaid
+
 ```mermaid
 flowchart TD
     A[Surge uma necessidade do Acolher+] --> B{Tipo da necessidade}
